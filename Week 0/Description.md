@@ -1,0 +1,4 @@
+# Description of Week 0 task
+This repository contains comprehensive installation guidelines for open-source VLSI and EDA toolchains, tailored for academic and project-based workflows. The documented process includes step-by-step instructions to install key tools such as Yosys, Iverilog, GTKWave, ngspice, Magic, and OpenLANE on Ubuntu 20.04 with a recommended hardware setup (6GB RAM, 50GB storage, 4 vCPUs), ensuring consistency and reliability for new users. Detailed system checks, version requirements, and configuration scripts are supplied to streamline both individual and group development environments in semiconductor and hardware design projects.
+
+This repo is designed for educational purposes and is being submitted as part of a tool setup and system verification exercise, with all tool snapshots and configuration documentation included for transparency and reproducibility.

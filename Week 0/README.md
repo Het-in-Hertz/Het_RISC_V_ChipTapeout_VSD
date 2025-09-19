@@ -24,4 +24,14 @@ This repo is designed for educational purposes and is being submitted as part of
 
 This also includes a summary of the lecture:Getting started with Digital VLSI SOC Design and Planning.
 
-## Tool Setup
+## Tool Setup setup
+### Virtual Box
+Go to: https://www.virtualbox.org/wiki/Downloads
+
+<img width="1916" height="869" alt="image" src="https://github.com/user-attachments/assets/2366824b-a72c-4d3c-ad7c-6017dd5ca5c0" />
+
+Click on windows host and download the file:
+
+<img width="362" height="81" alt="image" src="https://github.com/user-attachments/assets/f8fb4cdf-3b9f-4ba4-972f-fc9f26a36d85" />
+
+

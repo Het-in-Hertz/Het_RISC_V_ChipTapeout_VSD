@@ -46,6 +46,7 @@ And run the Virtual Machine
 Open terminal.
 
 #### Yosys:
+'''bash
 $ sudo apt-get update
 $ git clone https://github.com/YosysHQ/yosys.git
 $ cd yosys

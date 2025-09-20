@@ -46,6 +46,7 @@ And run the Virtual Machine
 Open terminal.
 
 #### Yosys:
+Steps to install yosys
 ```
 sudo apt-get update
 git clone https://github.com/YosysHQ/yosys.git
@@ -70,8 +71,8 @@ sudo apt-get install iverilog
 ```
 
 #### Gtkwave
-```
 Steps to install gtkwave
+```
 sudo apt-get update
 sudo apt install gtkwave
 ```

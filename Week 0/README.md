@@ -46,29 +46,36 @@ And run the Virtual Machine
 Open terminal.
 
 #### Yosys:
-''' 
-$ sudo apt-get update
-$ git clone https://github.com/YosysHQ/yosys.git
-$ cd yosys
-$ sudo apt install make (If make is not installed please install it)
-$ sudo apt-get install build-essential clang bison flex \
+```
+sudo apt-get update
+git clone https://github.com/YosysHQ/yosys.git
+cd yosys
+sudo apt install make    # If make is not installed please install it
+sudo apt-get install build-essential clang bison flex \
  libreadline-dev gawk tcl-dev libffi-dev git \
  graphviz xdot pkg-config python3 libboost-system-dev \
  libboost-python-dev libboost-filesystem-dev zlib1g-dev
-$ make config-gcc
-$ make
-$ sudo make install 
-''' 
+make config-gcc
+make
+sudo make install
+```
+
+When you do this, GitHub will show a scrollable, copyable, syntax-highlighted code section. This is the standard and bulletproof approach on GitHub.[1][2]
 
 #### Iverilog:
 Steps to install iverilog
+```
 sudo apt-get update
 sudo apt-get install iverilog
+```
 
 #### Gtkwave
+```
 Steps to install gtkwave
 sudo apt-get update
 sudo apt install gtkwave
+```
+
 
 ## 4.Lecture Summary
 Custom Processor Design Workflow

@@ -24,7 +24,7 @@ This repo is designed for educational purposes and is being submitted as part of
 
 This also includes a summary of the lecture:Getting started with Digital VLSI SOC Design and Planning.
 
-## Tool Setup setup
+## 3.Tool Setup setup
 ### Virtual Box
 Go to: https://www.virtualbox.org/wiki/Downloads
 
@@ -33,5 +33,60 @@ Go to: https://www.virtualbox.org/wiki/Downloads
 Click on windows host and download the file:
 
 <img width="362" height="81" alt="image" src="https://github.com/user-attachments/assets/f8fb4cdf-3b9f-4ba4-972f-fc9f26a36d85" />
+
+
+
+
+
+
+
+
+## 5.Lecture Summary
+Custom Processor Design Workflow
+Below is the description of the end-to-end workflow for designing a custom processor chip, from validating your application to silicon fabrication and board bring-up.
+
+### Workflow Steps
+1. Application Validation
+Compile the target application with GCC and verify the output.
+Ensure the application behaves as expected before proceeding.
+
+2. Specification Modeling in C
+Model the processor’s specifications in a C environment.
+Test the application on this model and confirm outputs match expectations.
+Freeze the specifications once verified.
+
+3. RTL (HDL) Implementation
+Implement processor specs in Verilog as a “soft copy” of the hardware.
+Simulate the Verilog and C models to confirm matching outputs.
+
+4. Modular RTL Structure
+Divide Verilog into processor core and separate peripheral/IP blocks.
+Ensure processor and macro blocks are synthesizable.
+Analog IPs need to functionally simulate as needed.
+
+5. GPIO Integration & I/O Testing
+Integrate GPIO logic and validate at the I/O level.
+
+7. Physical (Transistor-Level) Design
+Convert RTL to a transistor-level netlist.
+Generate a GDSII file with metal and layer info for fabrication.
+
+8. Tapeout and Fabrication
+Conduct final checks and submit GDSII for manufacturing (tapeout/tapein).
+Obtain fabricated silicon (chipset).
+
+9. Board Bring-Up & Validation
+Mount the chip on a custom board.
+Run the validated application on the board, matching all previously measured outputs.
+
+10. Target Applications
+Designed for 100–130 MHz operation—ideal as an Arduino replacement or controller in low-frequency devices (TVs, ACs, etc).
+
+
+
+
+
+
+
 
 

@@ -4,10 +4,8 @@
 2. Abstract
 3. Tool Setup
    - 3.1 Oracle Virtual Machine
-   - 3.2 iverilog
-   - 3.3 gtkwave
-
-5. Lecture Summary of Getting started with Digital VLSI SOC Design and Planning
+   - 3.2 Tools inside machine
+4. Lecture Summary of Getting started with Digital VLSI SOC Design and Planning
 
  
 
@@ -25,7 +23,7 @@ This repo is designed for educational purposes and is being submitted as part of
 This also includes a summary of the lecture:Getting started with Digital VLSI SOC Design and Planning.
 
 ## 3.Tool Setup setup
-### Virtual Box
+### 3.1 Virtual Box
 Go to: https://www.virtualbox.org/wiki/Downloads
 
 <img width="1916" height="869" alt="image" src="https://github.com/user-attachments/assets/2366824b-a72c-4d3c-ad7c-6017dd5ca5c0" />
@@ -34,14 +32,43 @@ Click on windows host and download the file:
 
 <img width="362" height="81" alt="image" src="https://github.com/user-attachments/assets/f8fb4cdf-3b9f-4ba4-972f-fc9f26a36d85" />
 
+Download Ubuntu iso from Ubuntu Website
+
+<img width="1753" height="614" alt="image" src="https://github.com/user-attachments/assets/5d6363df-36dc-4f3d-81aa-87f6ca3fbf96" />
+
+Plug it in while creating virtual machine 
 
 
 
+And run the Virtual Machine
 
+###3.2 Tools Setup
+Open terminal.
 
+#### Yosys:
+$ sudo apt-get update
+$ git clone https://github.com/YosysHQ/yosys.git
+$ cd yosys
+$ sudo apt install make (If make is not installed please install it)
+$ sudo apt-get install build-essential clang bison flex \
+ libreadline-dev gawk tcl-dev libffi-dev git \
+ graphviz xdot pkg-config python3 libboost-system-dev \
+ libboost-python-dev libboost-filesystem-dev zlib1g-dev
+$ make config-gcc
+$ make
+$ sudo make install 
 
+#### Iverilog:
+Steps to install iverilog
+sudo apt-get update
+sudo apt-get install iverilog
 
-## 5.Lecture Summary
+#### Gtkwave
+Steps to install gtkwave
+sudo apt-get update
+sudo apt install gtkwave
+
+## 4.Lecture Summary
 Custom Processor Design Workflow
 Below is the description of the end-to-end workflow for designing a custom processor chip, from validating your application to silicon fabrication and board bring-up.
 

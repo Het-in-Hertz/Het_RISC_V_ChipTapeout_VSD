@@ -36,11 +36,17 @@ Download Ubuntu iso from Ubuntu Website
 
 <img width="1753" height="614" alt="image" src="https://github.com/user-attachments/assets/5d6363df-36dc-4f3d-81aa-87f6ca3fbf96" />
 
-Plug it in while creating virtual machine 
+Plug it in while creating virtual machine and run the Virtual Machine
+
+<img width="1581" height="786" alt="image" src="https://github.com/user-attachments/assets/be8c9a65-fcf8-44d4-abd1-7277d555ab41" />
+
+<img width="1481" height="981" alt="image" src="https://github.com/user-attachments/assets/bb4e7794-4d45-4262-b5b5-401d23cb880c" />
+
+<img width="1545" height="893" alt="image" src="https://github.com/user-attachments/assets/a07d0e29-74e5-4dae-ac54-e33560761583" />
+
+ <img width="1102" height="806" alt="image" src="https://github.com/user-attachments/assets/b7ea07df-6eeb-408f-a770-141951973c57" />
 
 
-
-And run the Virtual Machine
 
 ###3.2 Tools Setup
 Open terminal.
@@ -61,7 +67,9 @@ make
 sudo make install
 ```
 
-When you do this, GitHub will show a scrollable, copyable, syntax-highlighted code section. This is the standard and bulletproof approach on GitHub.[1][2]
+<img width="1440" height="601" alt="image" src="https://github.com/user-attachments/assets/212d05cf-7bcc-4097-82bb-636cbd5f3d2a" />
+
+
 
 #### Iverilog:
 Steps to install iverilog
@@ -70,12 +78,16 @@ sudo apt-get update
 sudo apt-get install iverilog
 ```
 
+<img width="1414" height="186" alt="image" src="https://github.com/user-attachments/assets/9cf739d9-f02c-41c4-b617-9d4b1c2caabb" />
+
+
 #### Gtkwave
 Steps to install gtkwave
 ```
 sudo apt-get update
 sudo apt install gtkwave
 ```
+<img width="1440" height="737" alt="image" src="https://github.com/user-attachments/assets/c9aa5840-f5fc-4ab8-95f0-73c47b3c177b" />
 
 
 ## 4.Lecture Summary

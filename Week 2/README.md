@@ -178,11 +178,30 @@ These definitions don't do anything by themselves—they make the rest of the Ma
 
    <img width="683" height="113" alt="image" src="https://github.com/user-attachments/assets/990c6646-8c0e-45c7-9e8e-16b5aabd7047" />
 
-7. gtkwave output/pre_synth_sim/pre_synth_sim.vcd
+7.iverilog -o output/pre_synth_sim/pre_synth_sim.out -DPRE_SYNTH_SIM \
+    -I src/include -I src/module \
+    src/module/testbench.v src/module/vsdbabysoc.v
+cd output/pre_synth_sim
+./pre_synth_sim.out
+
+8. gtkwave output/pre_synth_sim/pre_synth_sim.vcd
 
    <img width="1818" height="761" alt="image" src="https://github.com/user-attachments/assets/b16fe073-305e-49de-8ab1-7eead6a957af" />
 
-8.
+<img width="1914" height="1061" alt="image" src="https://github.com/user-attachments/assets/1ff26ece-1986-492c-8111-67896be6d088" />
+
+9. iverilog -o output/post_synth_sim/post_synth_sim.out -DPOST_SYNTH_SIM \
+    -I src/include -I src/module \
+    src/module/testbench.v output/synthesized/vsdbabysoc.synth.v
+cd output/post_synth_sim
+./post_synth_sim.out
+
+10. After Running Both the output file is as such
+
+    <img width="836" height="141" alt="image" src="https://github.com/user-attachments/assets/8c66ccc0-73cf-4263-84c6-d0b5b87e9cf2" />
+
+
+
 
 
 

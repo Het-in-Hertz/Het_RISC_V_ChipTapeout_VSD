@@ -5,7 +5,7 @@ Welcome to my repository documenting the RISC-V Reference SoC Tapeout Program, w
 |----------|----------|----------|
 | [Week 0](https://github.com/Het-in-Hertz/Het_RISC_V_ChipTapeout_VSD/tree/main/Week%200) | Installation and setup guide | 19 Sep-2025 |
 | [Week 1](https://github.com/Het-in-Hertz/Het_RISC_V_ChipTapeout_VSD/tree/main/Week%201) | RTL Design Flow | 22 Sep-2025 |
-| [Week 2]() | BabySoc | 04 Oct-2025 |
+| [Week 2](https://github.com/Het-in-Hertz/Het_RISC_V_ChipTapeout_VSD/tree/main/Week%202) | BabySoc | 04 Oct-2025 |
 
 
 

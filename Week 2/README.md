@@ -1,4 +1,4 @@
-# Documentation
+<img width="605" height="57" alt="image" src="https://github.com/user-attachments/assets/668ce7d8-a39e-467e-bddd-b39d5092c367" /># Documentation
 ## Table of Content:
 1. Acknowledgement 
 2. Abstract
@@ -129,3 +129,60 @@ This approach ensures that the fundamental system behavior is correct before pro
 Understanding SoC fundamentals through BabySoC provides a solid foundation for complex system design. The simplified yet complete nature of BabySoC allows students to grasp essential concepts like component integration, signal flow, and mixed-signal design. Functional modelling serves as a critical validation step that ensures design correctness before moving to detailed RTL implementation, ultimately saving time and resources in the overall design process.
 
 The combination of theoretical understanding and practical implementation using simulation tools like Icarus Verilog and GTKWave prepares students for real-world SoC design challenges while providing hands-on experience with industry-standard design methodologies.
+
+## Part2: Labs
+1. Navigating to VLSI created earlier and using comand git clone https://github.com/manili/VSDBabySoC.git to clone git repo
+
+ <img width="829" height="247" alt="image" src="https://github.com/user-attachments/assets/7a86c6a9-738f-4d44-b3dc-6df979af7588" />
+
+2. After Cloning
+
+<img width="605" height="57" alt="image" src="https://github.com/user-attachments/assets/0596b274-e677-40ef-aaa5-1656d6ea4884" />
+
+3. Next give the commands
+
+cd VSDBabySoC
+ls -la
+
+<img width="560" height="380" alt="image" src="https://github.com/user-attachments/assets/7bb779dc-af3d-4efa-9f3b-686b4b6867c6" />
+
+4. cat Makefile helps us view the makefile contents
+
+<img width="816" height="590" alt="image" src="https://github.com/user-attachments/assets/edc95b72-22c6-4598-a077-eeca026005dc" />
+
+These variables are shortcuts for paths used in workflows like simulation, synthesis, and layout:
+
+SRC_PATH: Location of source files (main HDL code)
+
+LIB_PATH, GDS_PATH, LEF_PATH, SDC_PATH: Paths for library files, GDS (layout), LEF (cell descriptions), and SDC (timing constraints)
+
+MODULE_PATH: Where all Verilog modules are kept
+
+INCLUDE_PATH: Include files folder (often headers or config)
+
+LAYOUT_CONF_PATH: Layout configurations for place-and-route
+
+OUTPUT_PATH: Directory for ALL outputs (simulation logs, waveforms, etc.)
+
+OPENLANE_PATH, PDKS_PATH, OPENLANE_VER: For physical design (OpenLane tool chain and process design kit)
+
+STA_PATH, SYNTH_PATH: Output subdirectories for static timing analysis and synthesis
+
+COMPILED_TLV_PATH, PRE_SYNTH_SIM_PATH, POST_SYNTH_SIM_PATH: Output directories for compiled files and simulation results
+
+These definitions don't do anything by themselves—they make the rest of the Makefile readable and maintainable. They're like setting "bookmarks" to where your project components are stored.
+
+5. Run make pre_synth_sim
+   
+6. This creates an output file in VSDBabySoc file
+
+   <img width="683" height="113" alt="image" src="https://github.com/user-attachments/assets/990c6646-8c0e-45c7-9e8e-16b5aabd7047" />
+
+7. gtkwave output/pre_synth_sim/pre_synth_sim.vcd
+
+   <img width="1818" height="761" alt="image" src="https://github.com/user-attachments/assets/b16fe073-305e-49de-8ab1-7eead6a957af" />
+
+8.
+
+
+

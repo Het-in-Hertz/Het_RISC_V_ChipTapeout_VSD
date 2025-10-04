@@ -1,4 +1,4 @@
-<img width="605" height="57" alt="image" src="https://github.com/user-attachments/assets/668ce7d8-a39e-467e-bddd-b39d5092c367" /># Documentation
+# Documentation
 ## Table of Content:
 1. Acknowledgement 
 2. Abstract

@@ -23,13 +23,7 @@ This practical section implements functional modelling and simulation of the VSD
 
 ---
 
-# Lab Implementation Guide for VSDBabySoC Functional Modelling
-
-## **Prerequisites Installation**
-
-### **Step 1: Install Required Packages**
-
-
+## 3. Part1: Soc and BabySoc Theory
 
 ### **What is a System-on-Chip (SoC)?**
 
